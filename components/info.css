@@ -1,0 +1,84 @@
+.info {
+   background-color: #00204a;
+   padding: 45px 0 15px 0;
+}
+.info-section {
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+   gap: 15px;
+   }
+
+.info-section-part {
+   margin-right: 30px;
+}
+.part-1 h4 {
+   font-weight: 600;
+   margin-top: 20px;
+   margin-bottom: 30px;
+   color: #ffffff;
+   font-size: 1.5rem;
+}
+
+.part-1 .part-icon {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.part-1 .part-icon a {
+   margin: 10px 0;
+   color: #ffffff;
+   text-decoration: none;
+   cursor: pointer;
+}
+.part-1 .part-icon span {
+   padding-left: 10px;
+}
+
+.part-1  .info-social {
+   display: flex;
+   margin-top: 20px;
+   margin-bottom: 10px
+}
+
+.part-1  .info-social i {
+   padding-right: 10px;
+   font-size: 1.5rem;
+}
+
+.part-1 p {
+   color: #ffffff;
+   font-size: 14px;
+   line-height: 1.5;
+}
+
+.part-1.link li {
+list-style: none;
+margin-block: 20px;
+}
+
+.part-1.link li a {
+   text-decoration: none;
+   color: #ffffff;
+   }
+
+   .part-1 form input {
+   border: none;
+   border-bottom: 1px solid #ffffff;
+   background-color: transparent;
+   width: 100%;
+   height: 45px;
+   color: #ffffff;
+   outline: none;
+   }
+
+   .info-section-part .part-1 .btn-box {
+      margin-top: 5px;
+      width: 100%;
+  }
+
+  .info-section-part .part-1 .btn-box .btn1{
+   width: 100%;
+  }
+
+
+

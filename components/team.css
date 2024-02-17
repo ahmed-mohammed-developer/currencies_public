@@ -1,0 +1,62 @@
+.team {
+   background: var(--bacground-1);
+   padding-block: 100px;
+}
+
+.team h2 {
+   color: #ffffff;
+}
+.team .team-boxs {
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(228px, 1fr));
+   gap: 15px;
+}
+.team .team-box {
+   padding: 35px 0 0 0;
+   border-radius: 5px;
+   overflow: hidden;
+   transition: all .1s;
+   margin-top: 45px;
+   background: linear-gradient(to bottom, #002759, #002b64);
+}
+
+.team .team-box .team-img {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.team .team-box .team-img img {
+   width: 120px;
+   border-radius: 100%;
+   border: 5px solid #ffffff;
+}
+
+.team .team-box .team-title {
+   margin-block: 25px;
+   text-align: center;
+}
+
+.team .team-box .team-title h5 {
+   font-size: 1.25rem;
+   color: #00bbf0;
+   font-weight: 600;
+   margin-bottom: 16px;
+   line-height: 1.2;
+}
+
+.team .team-box .team-title p {
+   font-size: 14px;
+   color: #ffffff;
+   margin-bottom: 16px;
+}
+
+.team .team-box .team-icon {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 10px 45px 20px 45px;
+}
+
+.team .team-box .team-icon i {
+   font-size: 1.375rem;
+}

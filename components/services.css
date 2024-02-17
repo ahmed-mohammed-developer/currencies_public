@@ -1,0 +1,120 @@
+.services {
+   margin-block: 100px;
+}
+
+.title {
+   font-weight: bold;
+   margin-bottom: 0;
+   font-size: 2rem;
+   line-height: 1.2;
+   text-align: center;
+   text-transform: capitalize;
+   color: var(--text-p);
+}
+
+.title span {
+   color: var(--text-coler);
+}
+
+.services p {
+   margin-top: 10px;
+   margin-bottom: 0;
+   text-align: center;
+   color: var(--text-p);
+   font-size: 14px;
+}
+
+.services .box-services {
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(306px, 1fr));
+   gap: 20px;
+   margin-right: -15px;
+   margin-left: -15px;
+}
+
+.services .box-serv {
+   width: 100%;
+   padding-right: 15px;
+   padding-left: 15px;
+   text-align: center;
+   margin-top: 45px;
+   background-color: #f8f8f9;
+   padding: 20px;
+   border-radius: 5px;
+}
+
+
+.box-serv .images {
+   width: 125px;
+   min-width: 75px;
+   height: 75px;
+   margin-bottom: 15px;
+   display: block;
+   margin-inline: auto;
+}
+
+.box-serv .images img {
+   max-width: 100%;
+   max-height: 100%;
+}
+
+.box-services .box-serv h2 {
+   font-size: 1.25rem;
+   font-weight: bold;
+   text-transform: uppercase;
+   line-height: 1.2;
+   margin-top: 0;
+   margin-bottom: 0.5rem;
+   color: var(--text-p);
+}
+
+.box-services .box-serv p {
+   margin-top: 0;
+   margin-bottom: 1.5rem;
+   color: var(--text-p);
+   line-height: 1.5;
+   font-size: 14px;
+}
+
+.box-services .box-serv a {
+   color: var(--text-p);
+   font-weight: 600;
+   text-decoration: none;
+   background-color: transparent;
+   text-transform: capitalize;
+   cursor: pointer;
+   transition: all 0.3s ease;
+}
+.box-services .box-serv a:hover {
+   color: var(--text-coler);
+}
+
+.services .btn-box {
+   display: flex;
+   justify-content: center;
+   margin-top: 60px;
+}
+.services .btn-box .btn1 {
+   text-transform: capitalize;
+}
+@media screen and (max-width: 968px) {
+   .services .box-serv {
+      margin-top: 45px;
+   }
+   .services .box-serv:last-child {
+      margin-top: 15px;
+   }
+}
+@media screen and (max-width: 642px) {
+   .services .box-serv {
+      margin-top: 15px;
+   }
+   .services .box-serv:first-child {
+      margin-top: 45px;
+   }
+}
+@media screen and (max-width: 322px) {
+   .services .box-services {
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+   }
+}
